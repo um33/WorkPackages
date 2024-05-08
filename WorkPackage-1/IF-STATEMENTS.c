@@ -8,9 +8,6 @@
 // Silent symphony
 // The program continues to ask for a new number and exits if number isn ́t in the interval 1 to 5
 #include <stdio.h>    
-
- #include <stdio.h>
-
 void printInput(int *n) {
     printf("Provide a number between 1 and 5: \n");
     scanf("%d", n);
